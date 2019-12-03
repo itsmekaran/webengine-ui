@@ -110,7 +110,7 @@ class HomePage extends Component {
       >
         <Grid item xs={6}>
           <Typography variant="h1" component="h2">
-            Woogle
+            LookUp
           </Typography>
           <div contentEditable="true" onClick={this.showSuggestions} ref={this.inputRef} onInput={this.handleInput('searchKey')} style={{textAlign:"left", width:"200px", display:"inline-block", border: "1px solid blue"}} suppressContentEditableWarning={true}></div>
           <Button onClick={this.gotoSearch} variant="contained">Search</Button>
